@@ -38,7 +38,7 @@ function createProjectCard(project) {
 
   const badge = document.createElement("span");
   badge.className = "project-type";
-  badge.textContent = project.isExample ? "Example story" : "Project";
+  badge.textContent = project.isExample ? "Illustrative concept" : "Project";
   mediaFrame.append(badge);
 
   const info = document.createElement("div");

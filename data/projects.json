@@ -1,41 +1,41 @@
 {
   "projects": [
     {
-      "name": "A little room to learn",
-      "date": "Example · Spring 2025",
-      "description": "A sample story about creating welcoming spaces where young learners can explore, ask questions, and grow with confidence.",
+      "name": "Water security, planned together",
+      "date": "Sample initiative · Date to be confirmed",
+      "description": "Illustrative concept: work with village communities to understand local water needs and explore practical, sustainable access and conservation solutions.",
       "isExample": true,
       "media": [
         {
           "type": "image",
-          "src": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=960&q=80",
-          "alt": "A child learning and playing outside"
+          "src": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=960&q=80",
+          "alt": "Farmland in a rural landscape"
         }
       ]
     },
     {
-      "name": "Care, close to home",
-      "date": "Example · Summer 2025",
-      "description": "A sample story about neighbors connecting, sharing health resources, and making well-being a little more accessible.",
+      "name": "Local livelihoods, lasting roots",
+      "date": "Sample initiative · Date to be confirmed",
+      "description": "Illustrative concept: support local skills, producer groups, and livelihood opportunities shaped by the strengths and priorities of each community.",
       "isExample": true,
       "media": [
         {
           "type": "image",
-          "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=960&q=80",
-          "alt": "Volunteers gathering together in their community"
+          "src": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=960&q=80",
+          "alt": "A person working among green crops"
         }
       ]
     },
     {
-      "name": "Growing a greener tomorrow",
-      "date": "Example · Autumn 2025",
-      "description": "A sample story about bringing a community together to care for shared green spaces and nurture new growth.",
+      "name": "Learning opportunities for every child",
+      "date": "Sample initiative · Date to be confirmed",
+      "description": "Illustrative concept: strengthen access to inclusive learning through community participation and support for children's educational journeys.",
       "isExample": true,
       "media": [
         {
           "type": "image",
-          "src": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=960&q=80",
-          "alt": "Young plants growing in a community garden"
+          "src": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=960&q=80",
+          "alt": "A group of students learning together"
         }
       ]
     }

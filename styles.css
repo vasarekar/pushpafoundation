@@ -1,12 +1,12 @@
 :root {
   color-scheme: light;
-  --paper: #f8f7f2;
-  --ink: #19332c;
-  --muted: #68716a;
-  --green: #2f634f;
-  --green-dark: #193e32;
-  --orange: #e88750;
-  --line: #e8e6de;
+  --paper: #f8f5ed;
+  --ink: #29372d;
+  --muted: #6d7167;
+  --green: #496744;
+  --green-dark: #284532;
+  --orange: #c97b43;
+  --line: #e9e3d7;
   font-family: "DM Sans", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;

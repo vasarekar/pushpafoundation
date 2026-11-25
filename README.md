@@ -1,9 +1,10 @@
 # Pushpa Foundation website
 
-A responsive static website for the Pushpa Foundation. The projects and their
-media are loaded from [`data/projects.json`](./data/projects.json); example
-stories are explicitly marked as samples and should be replaced with verified
-foundation activities before publishing.
+A responsive static website themed around community-led rural development in
+India. Project concepts and their media are loaded from
+[`data/projects.json`](./data/projects.json); they are explicitly marked as
+illustrative samples and should be replaced with verified foundation activities
+before publishing.
 
 ## Run locally
 
@@ -38,6 +39,7 @@ Add a project to the `projects` array in `data/projects.json`:
 
 For video, use `"type": "video"` and provide a playable video URL as `src`;
 an optional `poster` URL is displayed before playback. Multiple media items
-can be included and will appear together in the project gallery. Keep
-`isExample: true` only for illustrative content. Update the contact email in
+can be included and will appear together in the project gallery. Set
+`isExample: true` for illustrative content and remove it only for verified
+foundation work. Update the contact email in
 `index.html` to an address monitored by the foundation before publishing.
