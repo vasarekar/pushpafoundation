@@ -23,8 +23,7 @@
       <nav class="main-nav" id="main-nav" aria-label="Main navigation">
         <a href="#home">Home</a>
         <a href="#mission">Our Mission</a>
-        <a href="#services">Our Services</a>
-        <a href="#projects">Projects</a>
+        <a href="#work">Our Work</a>
         <a class="nav-contact" href="#contact">Contact Us</a>
       </nav>
     </header>
@@ -33,18 +32,12 @@
       <section class="hero" id="home">
         <div class="hero-copy">
           <p class="eyebrow">Community-led change</p>
-          <h1>Empowering rural communities through community-led development</h1>
-          <p class="hero-text">Pushpa Foundation is dedicated to empowering rural communities by fostering self-reliance, education, and sustainable growth.</p>
-          <a class="primary-button" href="#mission">Discover our mission <span>→</span></a>
-        </div>
-        <div class="hero-image">
-          <img src="assets/source-3.jpeg" alt="A new rural facility being inaugurated" />
         </div>
       </section>
 
       <section class="impact-strip" aria-label="Foundation impact">
         <div><strong>500</strong><span>People reached</span></div>
-        <div><strong>99%</strong><span>Success rate</span></div>
+        <div><strong>100%</strong><span>Success rate</span></div>
         <div><strong>2</strong><span>Years of inspiration</span></div>
       </section>
 
@@ -58,44 +51,14 @@
         </div>
       </section>
 
-      <section class="services section" id="services">
-        <div class="section-heading">
-          <p class="eyebrow">What we do</p>
-          <h2>Our Services</h2>
+      <section class="work-section" id="work">
+        <div class="section-heading work-heading">
+          <p class="eyebrow">Our goals</p>
+          <h2>Delivering impact through local projects.</h2>
         </div>
-        <div class="service-grid">
-          <article>
-            <span>01</span>
-            <h3>Rural Educational Infrastructure Support</h3>
-            <p>We strengthen rural learning environments by building essential educational infrastructure. We have set up computer labs, introduced digital literacy, and provided dedicated rest rooms for girls.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Water Conservation</h3>
-            <p>We have planted over 100 trees and provided water containers to communities in need, while expanding efforts to include rainwater harvesting, efficient irrigation, and awareness programs.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Emergency Relief</h3>
-            <p>We provide food and essential supplies to families impacted by floods and financial assistance to families of farmers who have tragically lost their lives to suicide.</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>Community Care &amp; Essential Support</h3>
-            <p>We provide warm sweaters to orphanage children and donate sarees to women facing financial hardship, strengthening communities with warmth, respect, and hope.</p>
-          </article>
+        <div class="work-projects" id="projects" aria-live="polite">
+          <p class="project-status">Loading initiatives…</p>
         </div>
-      </section>
-
-      <section class="projects section" id="projects">
-        <div class="section-heading projects-heading">
-          <div>
-            <p class="eyebrow">Our work</p>
-            <h2>Projects</h2>
-          </div>
-          <p>Practical action. Local partnership. Lasting impact.</p>
-        </div>
-        <div class="project-grid" id="project-grid" aria-live="polite"></div>
       </section>
 
       <section class="contact" id="contact">
@@ -109,13 +72,13 @@
         </div>
         <form class="contact-form" action="#" method="post">
           <div class="form-row">
-            <label>First Name<input type="text" name="first_name" /></label>
-            <label>Last Name<input type="text" name="last_name" /></label>
+            <label>First Name<input type="text" name="first_name" autocomplete="given-name" required /></label>
+            <label>Last Name<input type="text" name="last_name" autocomplete="family-name" required /></label>
           </div>
-          <label>Email<input type="email" name="email" /></label>
-          <label>Message<textarea name="message" rows="4"></textarea></label>
+          <label>Email<input type="email" name="email" autocomplete="email" required /></label>
+          <label>Message<textarea name="message" rows="4" required></textarea></label>
           <button type="submit" class="primary-button">Submit <span>→</span></button>
-          <p class="form-success" role="status">Thanks for submitting!</p>
+          <p class="form-success" role="status">Your email app should open with your message addressed to contactpushpafoundation@gmail.com. Please send it from there.</p>
         </form>
       </section>
     </main>

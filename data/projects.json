@@ -1,33 +1,58 @@
 {
-  "projects": [
+  "goals": [
     {
-      "name": "Computer Lab - Rural School",
-      "description": "Pushpa Foundation established fully equipped computer labs in two rural schools located in Anjangao Kh. and Bembale, Maharashtra, helping students gain essential digital skills.",
-      "media": [
-        {"type":"image","src":"assets/source-5.jpeg","alt":"Students working in a rural computer lab"},
-        {"type":"image","src":"assets/source-7.jpeg","alt":"Computer laboratory at a rural school"}
+      "name": "Expand access to quality education",
+      "description": "Pushpa Foundation is strengthening rural learning environments by building essential educational infrastructure for underserved students. The foundation has already set up computer labs to introduce digital literacy and expand learning opportunities in remote areas. It has also provided dedicated rest rooms for girls, ensuring safety, dignity, and comfort within school premises. Through these efforts, Pushpa Foundation is laying the groundwork for a more equitable and empowered rural education system.",
+      "projects": [
+        {
+          "name": "Computer Labs - Rural Schools",
+          "description": "Computer labs in Anjangao Kh. and Bembale, Maharashtra, give students practical access to digital learning.",
+          "media": [
+            {"type":"image","src":"assets/source-7.jpeg","alt":"Computers installed in a rural school lab"},
+            {"type":"image","src":"assets/source-4.jpeg","alt":"School facility for girls at Upalai village"}
+          ]
+        },
+        {
+          "name": "Girls’ Restroom - Upalai Village School",
+          "description": "Dedicated restrooms help make the school environment safer and more supportive for girls.",
+          "media": [
+            {"type":"image","src":"assets/source-3.jpeg","alt":"School facility for girls at Upalai village"},
+            {"type":"image","src":"assets/source-tbd.jpeg","alt":"School facility for girls at Upalai village"}
+          ]
+        }
       ]
     },
     {
-      "name": "Girls’ Restroom Construction – Upalai Village School",
-      "description": "Dedicated rest rooms were built for girls in the rural school at Upalai village, Maharashtra, creating a safer and more inclusive learning environment.",
-      "media": [
-        {"type":"image","src":"assets/source-4.jpeg","alt":"School infrastructure and restroom project"}
+      "name": "Water Conservation and Sustainability",
+      "description": "Pushpa Foundation has taken its first steps toward sustainability by planting over 100+ trees and providing water containers to communities in need. Building on this foundation, the organization is expanding its efforts to include rainwater harvesting, efficient irrigation systems, and awareness programs that promote responsible water use. Through these initiatives, Pushpa Foundation aims to create lasting impact—preserving water resources and nurturing a greener, more resilient future",
+      "projects": [
+        {
+          "name": "Build greener, more resilient villagesg",
+          "description": "More than 100 trees planted across rural Maharashtra to contribute to healthier soil and a greener future.",
+          "media": [
+            {"type":"image","src":"assets/source-9.jpeg","alt":"Young trees planted in a rural area"},
+            {"type":"image","src":"assets/source-6.jpg","alt":"A newly planted tree being watered"}
+          ]
+        }
       ]
     },
     {
-      "name": "Community Care Initiative",
-      "description": "Sweaters were provided to orphanage children in Maharashtra, and over 200 sarees were donated to women in rural communities.",
-      "media": [
-        {"type":"image","src":"assets/source-6.jpg","alt":"Community care initiative"},
-        {"type":"image","src":"assets/source-8.jpeg","alt":"Community members receiving support"}
-      ]
+      "name": "Emergency Relief.",
+      "description": "Pushpa Foundation extends compassionate support to communities facing crisis through its Emergency Relief initiatives. The foundation has provided food and essential supplies to families impacted by devastating floods, ensuring immediate comfort and safety. It has also offered financial assistance to the families of farmers who tragically lost their lives to suicide, helping them regain stability during overwhelming hardship. Through these efforts, Pushpa Foundation stands as a pillar of hope in moments of deepest need.",
+      "projects": []
     },
     {
-      "name": "Tree Plantation in Rural Area",
-      "description": "Pushpa Foundation has planted 100+ trees across rural regions of Maharashtra, supporting cleaner air, healthier soil, and long-term ecological balance.",
-      "media": [
-        {"type":"image","src":"assets/source-9.jpeg","alt":"Tree plantation and water conservation activity"}
+      "name": "Strengthen dignity and everyday wellbeing",
+      "description": "Pushpa Foundation continues to uplift individuals in need through thoughtful, compassionate assistance. The organization has provided warm sweaters to orphanage children, ensuring comfort and dignity during harsh seasons. It has also donated over 200+ sarees to women facing financial hardship, helping them meet essential personal needs. Through these acts of kindness, Pushpa Foundation strengthens communities with warmth, respect, and hope.",
+      "projects": [
+        {
+          "name": "Community Care Initiative",
+          "description": "Sweaters for orphanage children and more than 200 sarees donated to women in rural communities.",
+          "media": [
+            {"type":"image","src":"assets/source-8.jpeg","alt":"School children and community members at a support event"},
+            {"type":"image","src":"assets/source-5.jpeg","alt":"Sweaters for orphanage children and more than 200 sarees donated to women in rural communities."}
+          ]
+        }
       ]
     }
   ]
