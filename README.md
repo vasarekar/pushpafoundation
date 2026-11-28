@@ -1,10 +1,8 @@
 # Pushpa Foundation website
 
-A responsive static website themed around community-led rural development in
-India. Project concepts and their media are loaded from
-[`data/projects.json`](./data/projects.json); they are explicitly marked as
-illustrative samples and should be replaced with verified foundation activities
-before publishing.
+A responsive reconstruction of the Pushpa Foundation Wix website, including its
+foundation mission, services, project descriptions, and locally stored Wix
+image assets.
 
 ## Run locally
 

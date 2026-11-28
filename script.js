@@ -43,17 +43,11 @@ function createProjectCard(project) {
 
   const info = document.createElement("div");
   info.className = "project-info";
-  const metadata = document.createElement("div");
-  metadata.className = "project-meta";
-  const date = document.createElement("span");
-  date.textContent = project.date;
-  metadata.append(date);
-
   const title = document.createElement("h3");
   title.textContent = project.name;
   const description = document.createElement("p");
   description.textContent = project.description;
-  info.append(metadata, title, description);
+  info.append(title, description);
   card.append(mediaFrame, info);
   return card;
 }
@@ -92,3 +86,21 @@ async function loadProjects() {
 
 document.querySelector("#current-year").textContent = new Date().getFullYear();
 loadProjects();
+
+const menuButton = document.querySelector(".menu-button");
+const mainNav = document.querySelector(".main-nav");
+menuButton?.addEventListener("click", () => {
+  const isOpen = mainNav.classList.toggle("open");
+  menuButton.setAttribute("aria-expanded", String(isOpen));
+});
+mainNav?.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", () => {
+    mainNav.classList.remove("open");
+    menuButton?.setAttribute("aria-expanded", "false");
+  });
+});
+
+document.querySelector(".contact-form")?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  event.currentTarget.querySelector(".form-success").style.display = "block";
+});

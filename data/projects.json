@@ -1,42 +1,33 @@
 {
   "projects": [
     {
-      "name": "Water security, planned together",
-      "date": "Sample initiative · Date to be confirmed",
-      "description": "Illustrative concept: work with village communities to understand local water needs and explore practical, sustainable access and conservation solutions.",
-      "isExample": true,
+      "name": "Computer Lab - Rural School",
+      "description": "Pushpa Foundation established fully equipped computer labs in two rural schools located in Anjangao Kh. and Bembale, Maharashtra, helping students gain essential digital skills.",
       "media": [
-        {
-          "type": "image",
-          "src": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=960&q=80",
-          "alt": "Farmland in a rural landscape"
-        }
+        {"type":"image","src":"assets/source-5.jpeg","alt":"Students working in a rural computer lab"},
+        {"type":"image","src":"assets/source-7.jpeg","alt":"Computer laboratory at a rural school"}
       ]
     },
     {
-      "name": "Local livelihoods, lasting roots",
-      "date": "Sample initiative · Date to be confirmed",
-      "description": "Illustrative concept: support local skills, producer groups, and livelihood opportunities shaped by the strengths and priorities of each community.",
-      "isExample": true,
+      "name": "Girls’ Restroom Construction – Upalai Village School",
+      "description": "Dedicated rest rooms were built for girls in the rural school at Upalai village, Maharashtra, creating a safer and more inclusive learning environment.",
       "media": [
-        {
-          "type": "image",
-          "src": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=960&q=80",
-          "alt": "A person working among green crops"
-        }
+        {"type":"image","src":"assets/source-4.jpeg","alt":"School infrastructure and restroom project"}
       ]
     },
     {
-      "name": "Learning opportunities for every child",
-      "date": "Sample initiative · Date to be confirmed",
-      "description": "Illustrative concept: strengthen access to inclusive learning through community participation and support for children's educational journeys.",
-      "isExample": true,
+      "name": "Community Care Initiative",
+      "description": "Sweaters were provided to orphanage children in Maharashtra, and over 200 sarees were donated to women in rural communities.",
       "media": [
-        {
-          "type": "image",
-          "src": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=960&q=80",
-          "alt": "A group of students learning together"
-        }
+        {"type":"image","src":"assets/source-6.jpg","alt":"Community care initiative"},
+        {"type":"image","src":"assets/source-8.jpeg","alt":"Community members receiving support"}
+      ]
+    },
+    {
+      "name": "Tree Plantation in Rural Area",
+      "description": "Pushpa Foundation has planted 100+ trees across rural regions of Maharashtra, supporting cleaner air, healthier soil, and long-term ecological balance.",
+      "media": [
+        {"type":"image","src":"assets/source-9.jpeg","alt":"Tree plantation and water conservation activity"}
       ]
     }
   ]
